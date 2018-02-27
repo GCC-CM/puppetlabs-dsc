@@ -82,7 +82,7 @@ function Set-TargetResource
     {
         $secEditOutput = "$env:TEMP\Secedit-OutPut.txt"
     
-        Invoke-Secedit -InfPath $Path -SecEditOutput $seceditOutput
+        Invoke-Secedit -UserRightsToAddInf $Path -SecEditOutput $seceditOutput
     }
     # Verify secedit command was successful
     $testSuccuess = Test-TargetResource @PSBoundParameters
@@ -121,6 +121,7 @@ function Test-TargetResource
     )
     
     $securityCmdlets = Get-Module -Name SecurityCmdlets -ListAvailable
+    $currentUserRightsInf = ([System.IO.Path]::GetTempFileName()).Replace('tmp','inf')
     $fileExists = Test-Path -Path $Path
 
     if ($fileExists -eq $false)
@@ -130,13 +131,15 @@ function Test-TargetResource
 
     if ($securityCmdlets)
     {
-        $currentUserRightsInf = Join-Path -Path $env:temp -ChildPath 'SecurityPolicy.inf' 
         Backup-SecurityPolicy -Path $currentUserRightsInf
     }
-
+    else
+    {
+        Get-SecurityTemplate -Path $currentUserRightsInf | Out-Null
+    }
     
-    $desiredPolicies = (Get-SecurityPolicy -FilePath $Path -Area 'USER_RIGHTS')
-    $currentPolicies = (Get-SecurityPolicy -Area 'USER_RIGHTS')
+    $desiredPolicies = (Get-UserRightsAssignment -FilePath $Path).'Privilege Rights'
+    $currentPolicies = (Get-UserRightsAssignment -FilePath $currentUserRightsInf).'Privilege Rights'
     
     $policyNames = $desiredPolicies.keys    
 
@@ -184,6 +187,7 @@ function Format-SecurityPolicyFile
     $outputPath = ([System.IO.Path]::GetTempFileName()).Replace('tmp','inf')
     $content = Get-Content -Path $Path 
 
+    $privilegeRightsMatch = Select-String -Path $Path -Pattern "[Privilege Rights]" -SimpleMatch
     $endOfFileMatch = Select-String -Path $Path -Pattern "Revision=1" -SimpleMatch
 
     $startOfFile = $privilegeRightIndex.LineNumber -1
