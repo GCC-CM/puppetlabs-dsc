@@ -6,9 +6,48 @@ For any system this module is installed on, use
 
 Puppet Type | DSC Resource
 ----------- | -----------------
+dsc_adcscertificationauthority | [AdcsCertificationAuthority](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/ActiveDirectoryCSDsc/DSCResources/MSFT_AdcsCertificationAuthority) | import/dsc_resources/ActiveDirectoryCSDsc/DSCResources/MSFT_AdcsCertificationAuthority/MSFT_AdcsCertificationAuthority.schema.mof
+dsc_adcsonlineresponder | [AdcsOnlineResponder](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/ActiveDirectoryCSDsc/DSCResources/MSFT_AdcsOnlineResponder) | import/dsc_resources/ActiveDirectoryCSDsc/DSCResources/MSFT_AdcsOnlineResponder/MSFT_AdcsOnlineResponder.schema.mof
+dsc_adcswebenrollment | [AdcsWebEnrollment](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/ActiveDirectoryCSDsc/DSCResources/MSFT_AdcsWebEnrollment) | import/dsc_resources/ActiveDirectoryCSDsc/DSCResources/MSFT_AdcsWebEnrollment/MSFT_AdcsWebEnrollment.schema.mof
 dsc_auditpolicycsv | [AuditPolicyCsv](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/AuditPolicyDsc/DSCResources/MSFT_AuditPolicyCsv) | import/dsc_resources/AuditPolicyDsc/DSCResources/MSFT_AuditPolicyCsv/MSFT_AuditPolicyCsv.schema.mof
 dsc_auditpolicyoption | [AuditPolicyOption](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/AuditPolicyDsc/DSCResources/MSFT_AuditPolicyOption) | import/dsc_resources/AuditPolicyDsc/DSCResources/MSFT_AuditPolicyOption/MSFT_AuditPolicyOption.schema.mof
 dsc_auditpolicysubcategory | [AuditPolicySubcategory](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/AuditPolicyDsc/DSCResources/MSFT_AuditPolicySubcategory) | import/dsc_resources/AuditPolicyDsc/DSCResources/MSFT_AuditPolicySubcategory/MSFT_AuditPolicySubcategory.schema.mof
+dsc_certreq | [CertReq](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/CertificateDsc/DSCResources/MSFT_CertReq) | import/dsc_resources/CertificateDsc/DSCResources/MSFT_CertReq/MSFT_CertReq.schema.mof
+dsc_certificateexport | [CertificateExport](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/CertificateDsc/DSCResources/MSFT_CertificateExport) | import/dsc_resources/CertificateDsc/DSCResources/MSFT_CertificateExport/MSFT_CertificateExport.schema.mof
+dsc_certificateimport | [CertificateImport](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/CertificateDsc/DSCResources/MSFT_CertificateImport) | import/dsc_resources/CertificateDsc/DSCResources/MSFT_CertificateImport/MSFT_CertificateImport.schema.mof
+dsc_pfximport | [PfxImport](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/CertificateDsc/DSCResources/MSFT_PfxImport) | import/dsc_resources/CertificateDsc/DSCResources/MSFT_PfxImport/MSFT_PfxImport.schema.mof
+dsc_waitforcertificateservices | [WaitForCertificateServices](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/CertificateDsc/DSCResources/MSFT_WaitForCertificateServices) | import/dsc_resources/CertificateDsc/DSCResources/MSFT_WaitForCertificateServices/MSFT_WaitForCertificateServices.schema.mof
+dsc_computer | [Computer](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/ComputerManagementDsc/DSCResources/MSFT_Computer) | import/dsc_resources/ComputerManagementDsc/DSCResources/MSFT_Computer/MSFT_Computer.schema.mof
+dsc_offlinedomainjoin | [OfflineDomainJoin](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/ComputerManagementDsc/DSCResources/MSFT_OfflineDomainJoin) | import/dsc_resources/ComputerManagementDsc/DSCResources/MSFT_OfflineDomainJoin/MSFT_OfflineDomainJoin.schema.mof
+dsc_powerplan | [PowerPlan](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/ComputerManagementDsc/DSCResources/MSFT_PowerPlan) | import/dsc_resources/ComputerManagementDsc/DSCResources/MSFT_PowerPlan/MSFT_PowerPlan.schema.mof
+dsc_scheduledtask | [ScheduledTask](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/ComputerManagementDsc/DSCResources/MSFT_ScheduledTask) | import/dsc_resources/ComputerManagementDsc/DSCResources/MSFT_ScheduledTask/MSFT_ScheduledTask.schema.mof
+dsc_virtualmemory | [VirtualMemory](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/ComputerManagementDsc/DSCResources/MSFT_VirtualMemory) | import/dsc_resources/ComputerManagementDsc/DSCResources/MSFT_VirtualMemory/MSFT_VirtualMemory.schema.mof
+dsc_dfsnamespacefolder | [DFSNamespaceFolder](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/DFSDsc/DSCResources/MSFT_DFSNamespaceFolder) | import/dsc_resources/DFSDsc/DSCResources/MSFT_DFSNamespaceFolder/MSFT_DFSNamespaceFolder.schema.mof
+dsc_dfsnamespaceroot | [DFSNamespaceRoot](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/DFSDsc/DSCResources/MSFT_DFSNamespaceRoot) | import/dsc_resources/DFSDsc/DSCResources/MSFT_DFSNamespaceRoot/MSFT_DFSNamespaceRoot.schema.mof
+dsc_dfsnamespaceserverconfiguration | [DFSNamespaceServerConfiguration](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/DFSDsc/DSCResources/MSFT_DFSNamespaceServerConfiguration) | import/dsc_resources/DFSDsc/DSCResources/MSFT_DFSNamespaceServerConfiguration/MSFT_DFSNamespaceServerConfiguration.schema.mof
+dsc_dfsreplicationgroup | [DFSReplicationGroup](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/DFSDsc/DSCResources/MSFT_DFSReplicationGroup) | import/dsc_resources/DFSDsc/DSCResources/MSFT_DFSReplicationGroup/MSFT_DFSReplicationGroup.schema.mof
+dsc_dfsreplicationgroupconnection | [DFSReplicationGroupConnection](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/DFSDsc/DSCResources/MSFT_DFSReplicationGroupConnection) | import/dsc_resources/DFSDsc/DSCResources/MSFT_DFSReplicationGroupConnection/MSFT_DFSReplicationGroupConnection.schema.mof
+dsc_dfsreplicationgroupfolder | [DFSReplicationGroupFolder](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/DFSDsc/DSCResources/MSFT_DFSReplicationGroupFolder) | import/dsc_resources/DFSDsc/DSCResources/MSFT_DFSReplicationGroupFolder/MSFT_DFSReplicationGroupFolder.schema.mof
+dsc_dfsreplicationgroupmembership | [DFSReplicationGroupMembership](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/DFSDsc/DSCResources/MSFT_DFSReplicationGroupMembership) | import/dsc_resources/DFSDsc/DSCResources/MSFT_DFSReplicationGroupMembership/MSFT_DFSReplicationGroupMembership.schema.mof
+dsc_fsrmautoquota | [FSRMAutoQuota](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMAutoQuota) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMAutoQuota/DSR_FSRMAutoQuota.schema.mof
+dsc_fsrmclassification | [FSRMClassification](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMClassification) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMClassification/DSR_FSRMClassification.schema.mof
+dsc_fsrmclassificationproperty | [FSRMClassificationProperty](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMClassificationProperty) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMClassificationProperty/DSR_FSRMClassificationProperty.schema.mof
+dsc_fsrmclassificationpropertyvalue | [FSRMClassificationPropertyValue](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMClassificationPropertyValue) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMClassificationPropertyValue/DSR_FSRMClassificationPropertyValue.schema.mof
+dsc_fsrmclassificationrule | [FSRMClassificationRule](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMClassificationRule) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMClassificationRule/DSR_FSRMClassificationRule.schema.mof
+dsc_fsrmfilegroup | [FSRMFileGroup](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileGroup) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileGroup/DSR_FSRMFileGroup.schema.mof
+dsc_fsrmfilescreen | [FSRMFileScreen](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreen) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreen/DSR_FSRMFileScreen.schema.mof
+dsc_fsrmfilescreenaction | [FSRMFileScreenAction](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreenAction) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreenAction/DSR_FSRMFileScreenAction.schema.mof
+dsc_fsrmfilescreenexception | [FSRMFileScreenException](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreenException) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreenException/DSR_FSRMFileScreenException.schema.mof
+dsc_fsrmfilescreentemplate | [FSRMFileScreenTemplate](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreenTemplate) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreenTemplate/DSR_FSRMFileScreenTemplate.schema.mof
+dsc_fsrmfilescreentemplateaction | [FSRMFileScreenTemplateAction](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreenTemplateAction) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMFileScreenTemplateAction/DSR_FSRMFileScreenTemplateAction.schema.mof
+dsc_fsrmquota | [FSRMQuota](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMQuota) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMQuota/DSR_FSRMQuota.schema.mof
+dsc_fsrmquotaaction | [FSRMQuotaAction](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMQuotaAction) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMQuotaAction/DSR_FSRMQuotaAction.schema.mof
+dsc_fsrmquotatemplate | [FSRMQuotaTemplate](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMQuotaTemplate) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMQuotaTemplate/DSR_FSRMQuotaTemplate.schema.mof
+dsc_fsrmquotatemplateaction | [FSRMQuotaTemplateAction](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMQuotaTemplateAction) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMQuotaTemplateAction/DSR_FSRMQuotaTemplateAction.schema.mof
+dsc_fsrmsettings | [FSRMSettings](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FSRMDsc/DSCResources/DSR_FSRMSettings) | import/dsc_resources/FSRMDsc/DSCResources/DSR_FSRMSettings/DSR_FSRMSettings.schema.mof
+dsc_inisettingsfile | [IniSettingsFile](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FileContentDsc/DSCResources/DSR_IniSettingsFile) | import/dsc_resources/FileContentDsc/DSCResources/DSR_IniSettingsFile/DSR_IniSettingsFile.schema.mof
+dsc_keyvaluepairfile | [KeyValuePairFile](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FileContentDsc/DSCResources/DSR_KeyValuePairFile) | import/dsc_resources/FileContentDsc/DSCResources/DSR_KeyValuePairFile/DSR_KeyValuePairFile.schema.mof
+dsc_replacetext | [ReplaceText](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/FileContentDsc/DSCResources/DSR_ReplaceText) | import/dsc_resources/FileContentDsc/DSCResources/DSR_ReplaceText/DSR_ReplaceText.schema.mof
 dsc_officeonlineserverfarm | [OfficeOnlineServerFarm](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/OfficeOnlineServerDsc/DSCResources/MSFT_OfficeOnlineServerFarm) | import/dsc_resources/OfficeOnlineServerDsc/DSCResources/MSFT_OfficeOnlineServerFarm/MSFT_OfficeOnlineServerFarm.schema.mof
 dsc_officeonlineserverinstall | [OfficeOnlineServerInstall](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/OfficeOnlineServerDsc/DSCResources/MSFT_OfficeOnlineServerInstall) | import/dsc_resources/OfficeOnlineServerDsc/DSCResources/MSFT_OfficeOnlineServerInstall/MSFT_OfficeOnlineServerInstall.schema.mof
 dsc_officeonlineserverinstalllanguagepack | [OfficeOnlineServerInstallLanguagePack](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/OfficeOnlineServerDsc/DSCResources/MSFT_OfficeOnlineServerInstallLanguagePack) | import/dsc_resources/OfficeOnlineServerDsc/DSCResources/MSFT_OfficeOnlineServerInstallLanguagePack/MSFT_OfficeOnlineServerInstallLanguagePack.schema.mof
@@ -176,6 +215,11 @@ dsc_opticaldiskdriveletter | [OpticalDiskDriveLetter](https://github.com/puppetl
 dsc_waitfordisk | [WaitForDisk](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/StorageDsc/DSCResources/MSFT_WaitForDisk) | import/dsc_resources/StorageDsc/DSCResources/MSFT_WaitForDisk/MSFT_WaitForDisk.schema.mof
 dsc_waitforvolume | [WaitForVolume](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/StorageDsc/DSCResources/MSFT_WaitForVolume) | import/dsc_resources/StorageDsc/DSCResources/MSFT_WaitForVolume/MSFT_WaitForVolume.schema.mof
 dsc_systemlocale | [SystemLocale](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/SystemLocaleDsc/DSCResources/MSFT_SystemLocale) | import/dsc_resources/SystemLocaleDsc/DSCResources/MSFT_SystemLocale/MSFT_SystemLocale.schema.mof
+dsc_wsmanlistener | [WSManListener](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/WSManDsc/DSCResources/DSR_WSManListener) | import/dsc_resources/WSManDsc/DSCResources/DSR_WSManListener/DSR_WSManListener.schema.mof
+dsc_wsmanserviceconfig | [WSManServiceConfig](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/WSManDsc/DSCResources/DSR_WSManServiceConfig) | import/dsc_resources/WSManDsc/DSCResources/DSR_WSManServiceConfig/DSR_WSManServiceConfig.schema.mof
+dsc_iscsiinitiator | [iSCSIInitiator](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/iSCSIDsc/DSCResources/DSR_iSCSIInitiator) | import/dsc_resources/iSCSIDsc/DSCResources/DSR_iSCSIInitiator/DSR_iSCSIInitiator.schema.mof
+dsc_iscsiservertarget | [iSCSIServerTarget](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/iSCSIDsc/DSCResources/DSR_iSCSIServerTarget) | import/dsc_resources/iSCSIDsc/DSCResources/DSR_iSCSIServerTarget/DSR_iSCSIServerTarget.schema.mof
+dsc_iscsivirtualdisk | [iSCSIVirtualDisk](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/iSCSIDsc/DSCResources/DSR_iSCSIVirtualDisk) | import/dsc_resources/iSCSIDsc/DSCResources/DSR_iSCSIVirtualDisk/DSR_iSCSIVirtualDisk.schema.mof
 dsc_runbookdirectory | [RunbookDirectory](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/xSCSMA/DSCResources/MSFT_xRunbookDirectory) | import/dsc_resources/xSCSMA/DSCResources/MSFT_xRunbookDirectory/MSFT_xRunbookDirectory.schema.mof
 dsc_smavariable | [SmaVariable](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/build/vendor/wmf_dsc_resources/xSCSMA/DSCResources/MSFT_xSmaVariable) | import/dsc_resources/xSCSMA/DSCResources/MSFT_xSmaVariable/MSFT_xSmaVariable.schema.mof
 
@@ -198,14 +242,6 @@ dsc_xadreplicationsubnet | [xADReplicationSubnet](https://github.com/puppetlabs/
 dsc_xadserviceprincipalname | [xADServicePrincipalName](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xActiveDirectory/DSCResources/MSFT_xADServicePrincipalName) | [repo](https://github.com/PowerShell/xActiveDirectory)
 dsc_xaduser | [xADUser](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xActiveDirectory/DSCResources/MSFT_xADUser) | [repo](https://github.com/PowerShell/xActiveDirectory)
 dsc_xwaitforaddomain | [xWaitForADDomain](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xActiveDirectory/DSCResources/MSFT_xWaitForADDomain) | [repo](https://github.com/PowerShell/xActiveDirectory)
-
-##### xAdcsDeployment
-
-Puppet Type | DSC Resource | Github Repo
------------ | ----------------- | -----
-dsc_xadcscertificationauthority | [xAdcsCertificationAuthority](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xAdcsDeployment/DSCResources/MSFT_xAdcsCertificationAuthority) | [repo](https://github.com/PowerShell/xAdcsDeployment)
-dsc_xadcsonlineresponder | [xAdcsOnlineResponder](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xAdcsDeployment/DSCResources/MSFT_xAdcsOnlineResponder) | [repo](https://github.com/PowerShell/xAdcsDeployment)
-dsc_xadcswebenrollment | [xAdcsWebEnrollment](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xAdcsDeployment/DSCResources/MSFT_xAdcsWebEnrollment) | [repo](https://github.com/PowerShell/xAdcsDeployment)
 
 ##### xAzure
 
@@ -243,43 +279,11 @@ dsc_xblautobitlocker | [xBLAutoBitlocker](https://github.com/puppetlabs/puppetla
 dsc_xblbitlocker | [xBLBitlocker](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xBitlocker/DSCResources/MSFT_xBLBitlocker) | [repo](https://github.com/PowerShell/xBitlocker)
 dsc_xbltpm | [xBLTpm](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xBitlocker/DSCResources/MSFT_xBLTpm) | [repo](https://github.com/PowerShell/xBitlocker)
 
-##### xCertificate
-
-Puppet Type | DSC Resource | Github Repo
------------ | ----------------- | -----
-dsc_xcertreq | [xCertReq](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xCertificate/DSCResources/MSFT_xCertReq) | [repo](https://github.com/PowerShell/xCertificate)
-dsc_xcertificateexport | [xCertificateExport](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xCertificate/DSCResources/MSFT_xCertificateExport) | [repo](https://github.com/PowerShell/xCertificate)
-dsc_xcertificateimport | [xCertificateImport](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xCertificate/DSCResources/MSFT_xCertificateImport) | [repo](https://github.com/PowerShell/xCertificate)
-dsc_xpfximport | [xPfxImport](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xCertificate/DSCResources/MSFT_xPfxImport) | [repo](https://github.com/PowerShell/xCertificate)
-dsc_xwaitforcertificateservices | [xWaitForCertificateServices](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xCertificate/DSCResources/MSFT_xWaitForCertificateServices) | [repo](https://github.com/PowerShell/xCertificate)
-
-##### xComputerManagement
-
-Puppet Type | DSC Resource | Github Repo
------------ | ----------------- | -----
-dsc_xcomputer | [xComputer](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xComputerManagement/DSCResources/MSFT_xComputer) | [repo](https://github.com/PowerShell/xComputerManagement)
-dsc_xofflinedomainjoin | [xOfflineDomainJoin](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xComputerManagement/DSCResources/MSFT_xOfflineDomainJoin) | [repo](https://github.com/PowerShell/xComputerManagement)
-dsc_xpowerplan | [xPowerPlan](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xComputerManagement/DSCResources/MSFT_xPowerPlan) | [repo](https://github.com/PowerShell/xComputerManagement)
-dsc_xscheduledtask | [xScheduledTask](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xComputerManagement/DSCResources/MSFT_xScheduledTask) | [repo](https://github.com/PowerShell/xComputerManagement)
-dsc_xvirtualmemory | [xVirtualMemory](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xComputerManagement/DSCResources/MSFT_xVirtualMemory) | [repo](https://github.com/PowerShell/xComputerManagement)
-
 ##### xCredSSP
 
 Puppet Type | DSC Resource | Github Repo
 ----------- | ----------------- | -----
 dsc_xcredssp | [xCredSSP](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xCredSSP/DSCResources/MSFT_xCredSSP) | [repo](https://github.com/PowerShell/xCredSSP)
-
-##### xDFS
-
-Puppet Type | DSC Resource | Github Repo
------------ | ----------------- | -----
-dsc_xdfsnamespacefolder | [xDFSNamespaceFolder](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xDFS/DSCResources/MSFT_xDFSNamespaceFolder) | [repo](https://github.com/PowerShell/xDFS)
-dsc_xdfsnamespaceroot | [xDFSNamespaceRoot](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xDFS/DSCResources/MSFT_xDFSNamespaceRoot) | [repo](https://github.com/PowerShell/xDFS)
-dsc_xdfsnamespaceserverconfiguration | [xDFSNamespaceServerConfiguration](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xDFS/DSCResources/MSFT_xDFSNamespaceServerConfiguration) | [repo](https://github.com/PowerShell/xDFS)
-dsc_xdfsreplicationgroup | [xDFSReplicationGroup](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xDFS/DSCResources/MSFT_xDFSReplicationGroup) | [repo](https://github.com/PowerShell/xDFS)
-dsc_xdfsreplicationgroupconnection | [xDFSReplicationGroupConnection](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xDFS/DSCResources/MSFT_xDFSReplicationGroupConnection) | [repo](https://github.com/PowerShell/xDFS)
-dsc_xdfsreplicationgroupfolder | [xDFSReplicationGroupFolder](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xDFS/DSCResources/MSFT_xDFSReplicationGroupFolder) | [repo](https://github.com/PowerShell/xDFS)
-dsc_xdfsreplicationgroupmembership | [xDFSReplicationGroupMembership](https://github.com/puppetlabs/puppetlabs-dsc/tree/master/lib/puppet_x/dsc_resources/xDFS/DSCResources/MSFT_xDFSReplicationGroupMembership) | [repo](https://github.com/PowerShell/xDFS)
 
 ##### xDatabase
 

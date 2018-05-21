@@ -53,3 +53,7 @@ xWindowsRestore: 1.0.0-PSGallery
 xWindowsUpdate: 2.7.0.0-PSGallery
 xWinEventLog: 1.1.0.0-PSGallery
 xWordPress: 1.1.0.0-PSGallery
+ComputerManagementDsc: 5.0.0.0-PSGallery
+DFSDsc: 4.0.0.0-PSGallery
+CertificateDsc: 4.0.0.0-PSGallery
+ActiveDirectoryCSDsc: 2.0.0.0-PSGallery

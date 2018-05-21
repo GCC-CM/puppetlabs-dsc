@@ -97,7 +97,8 @@ namespace :dsc do
           # similar to what was done in the Chocolatey module
           versions = tags_raw.scan(/(\S+)\-PSGallery/).map { | ver | Gem::Version.new(ver[0]) }
           if versions.empty?
-            raise "#{dsc_resource_name} does not have any '*-PSGallery' tags. Appears it has not been released yet. Tags found #{tags_raw.to_s}"
+            puts "#{dsc_resource_name} does not have any '*-PSGallery' tags. Appears it has not been released yet. Tags found #{tags_raw.to_s}"
+            next  
           end
 
           latest_version = versions.max.to_s + "-PSGallery"
